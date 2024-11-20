@@ -48,3 +48,4 @@ int main() {
         printf("Result: %s\n", array);
         return 0;
     }
+}
