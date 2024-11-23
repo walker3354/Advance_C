@@ -9,7 +9,7 @@ int main() {
     int decision = 1;
     while (decision) {
         printf("Please specifiy the input: ");
-        sacnf("%x", &input);
+        scanf("%x", &input);
         printf("\tPlease specify the high: ");
         scanf("%u", &high);
         printf("\tPlease specify the low:");
@@ -24,12 +24,15 @@ int main() {
 
 int check_range_loop(Int32 input, Int32 high, Int32 low) {
     for (Int32 i = low; i <= high; i++) { // same
-        if ((input & (1 << i)) == 1) return 1;
+        if ((input & (1 << i))) return 1;
     }
     return 0;
 }
 
 int check_range_no_loop(Int32 input, Int32 high, Int32 low) {
+    if (high < low || high >= 32 || low >= 32) {
+        return 0;
+    }
     Int32 mask = ((1 << (high - low + 1)) - 1) << low;
     return (input & mask) != 0;
 }
