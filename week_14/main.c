@@ -5,12 +5,15 @@
 
 int main(void) {
     int operation;
-    int id, score = 0, ret;
+    int id, ret;
     tQueue *queue;
     tQueueNode *target_node;
+
+    // 創建佇列
     queue = createQueue();
 
     while (1) {
+        printf("Remaining memory space: %d\n", calculate_remaining_space());
         printf("\nWhich type you are going to operate? \n");
         printf("1. Add a type 1 (small) item\n");
         printf("2. Add a type 2 (big) item\n");
@@ -19,30 +22,33 @@ int main(void) {
         scanf("%d", &operation);
 
         if (operation == 1 || operation == 2) {
-            printf("  Enter id:");
+            printf("  Enter id: ");
             scanf("%d", &id);
-            ret = enqueue_node(queue, id, score,
+
+            ret = enqueue_node(queue, id,
                                (operation == 1 ? TYPE_SMALL : TYPE_LARGE));
             if (ret == 0) {
                 printf("    Cannot enter to the queue\n");
             }
             print_buffer_status();
+            printf("Remaining memory space: %d\n", calculate_remaining_space());
         } else if (operation == 3 || operation == 4) {
-            printf("  Enter an ID to remove ");
+            printf("  Enter an ID to remove: ");
             scanf("%d", &id);
-            target_node = find_target_node(
-                queue, id, (operation == 3 ? TYPE_SMALL : TYPE_LARGE));
+
+            target_node = find_target_node(queue, id);
             if (target_node == NULL) {
-                printf("    Cannot find the target node \n");
+                printf("    Cannot find the target node\n");
             } else {
-                dequeue_node(queue, target_node,
-                             (operation == 3 ? TYPE_SMALL : TYPE_LARGE));
+                dequeue_node(queue, target_node);
             }
             print_buffer_status();
-
         } else {
-            printf("    No such operation \n");
+            printf("    No such operation\n");
         }
-        print_queue(queue);
+
+        print_queue(queue); // 顯示當前佇列內容
     }
+
+    return 0;
 }

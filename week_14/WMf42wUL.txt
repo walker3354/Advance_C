@@ -1,0 +1,329 @@
+Remaining memory space 23
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+1
+  enter id: 1
+  specify data type (units) you want: 1
+      buffer_mask: 0 0 0 0 0 0 0 , 0 0 0 0 0 0 0 0 , 0 0 0 0 0 0 0 1 , 
+      queue content: 1(0, 1) 
+
+Remaining memory space 22
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+1
+  enter id: 21
+  specify data type (units) you want: 21
+      buffer_mask: 0 1 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 
+      queue content: 1(0, 1) 21(1, 21) 
+
+Remaining memory space 1
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+2
+  enter an ID to remove 
+1
+      buffer_mask: 0 1 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 1 1 1 1 1 1 1 0 , 
+      queue content: 21(1, 21) 
+
+Remaining memory space 2
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+1
+  enter id: 2
+  specify data type (units) you want: 2
+    Enqueue False!!! 
+    Cannot enter to the queue
+      buffer_mask: 0 1 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 1 1 1 1 1 1 1 0 , 
+      queue content: 21(1, 21) 
+
+Remaining memory space 2
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+2
+  enter an ID to remove 
+21
+      buffer_mask: 0 0 0 0 0 0 0 , 0 0 0 0 0 0 0 0 , 0 0 0 0 0 0 0 0 , 
+      queue content: 
+
+Remaining memory space 23
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+1
+  enter id: 1
+  specify data type (units) you want: 1
+      buffer_mask: 0 0 0 0 0 0 0 , 0 0 0 0 0 0 0 0 , 0 0 0 0 0 0 0 1 , 
+      queue content: 1(0, 1) 
+
+Remaining memory space 22
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+1
+  enter id: 5
+  specify data type (units) you want: 5
+      buffer_mask: 0 0 0 0 0 0 0 , 0 0 0 0 0 0 0 0 , 0 0 1 1 1 1 1 1 , 
+      queue content: 1(0, 1) 5(1, 5) 
+
+Remaining memory space 17
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+1
+  enter id: 3
+  specify data type (units) you want: 3
+      buffer_mask: 0 0 0 0 0 0 0 , 0 0 0 0 0 0 0 1 , 1 1 1 1 1 1 1 1 , 
+      queue content: 1(0, 1) 5(1, 5) 3(6, 3) 
+
+Remaining memory space 14
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+1
+  enter id: 12
+  specify data type (units) you want: 12
+      buffer_mask: 0 0 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 
+      queue content: 1(0, 1) 5(1, 5) 3(6, 3) 12(9, 12) 
+
+Remaining memory space 2
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+1
+  enter id: 4
+  specify data type (units) you want: 4
+    Enqueue False!!! 
+    Cannot enter to the queue
+      buffer_mask: 0 0 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 
+      queue content: 1(0, 1) 5(1, 5) 3(6, 3) 12(9, 12) 
+
+Remaining memory space 2
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+1
+  enter id: 2
+  specify data type (units) you want: 2
+      buffer_mask: 1 1 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 
+      queue content: 1(0, 1) 5(1, 5) 3(6, 3) 12(9, 12) 2(21, 2) 
+
+Remaining memory space 0
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+2
+  enter an ID to remove 
+5
+      buffer_mask: 1 1 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 1 1 0 0 0 0 0 1 , 
+      queue content: 1(0, 1) 3(6, 3) 12(9, 12) 2(21, 2) 
+
+Remaining memory space 5
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+2
+  enter an ID to remove 
+2
+      buffer_mask: 0 0 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 1 1 0 0 0 0 0 1 , 
+      queue content: 1(0, 1) 3(6, 3) 12(9, 12) 
+
+Remaining memory space 7
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+1
+  enter id: 6
+  specify data type (units) you want: 6
+    Enqueue False!!! 
+    Cannot enter to the queue
+      buffer_mask: 0 0 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 1 1 0 0 0 0 0 1 , 
+      queue content: 1(0, 1) 3(6, 3) 12(9, 12) 
+
+Remaining memory space 7
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+2
+  enter an ID to remove 
+7
+    cannot find the target node 
+      buffer_mask: 0 0 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 1 1 0 0 0 0 0 1 , 
+      queue content: 1(0, 1) 3(6, 3) 12(9, 12) 
+
+Remaining memory space 7
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+1
+  enter id: 7
+  specify data type (units) you want: 7
+    Enqueue False!!! 
+    Cannot enter to the queue
+      buffer_mask: 0 0 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 1 1 0 0 0 0 0 1 , 
+      queue content: 1(0, 1) 3(6, 3) 12(9, 12) 
+
+Remaining memory space 7
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+1
+  enter id: 4
+  specify data type (units) you want: 4
+      buffer_mask: 0 0 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 1 1 0 1 1 1 1 1 , 
+      queue content: 1(0, 1) 3(6, 3) 12(9, 12) 4(1, 4) 
+
+Remaining memory space 3
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+1
+  enter id: 3
+  specify data type (units) you want: 3
+    Enqueue False!!! 
+    Cannot enter to the queue
+      buffer_mask: 0 0 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 1 1 0 1 1 1 1 1 , 
+      queue content: 1(0, 1) 3(6, 3) 12(9, 12) 4(1, 4) 
+
+Remaining memory space 3
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+1
+  enter id: 2
+  specify data type (units) you want: 2
+      buffer_mask: 1 1 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 1 1 0 1 1 1 1 1 , 
+      queue content: 1(0, 1) 3(6, 3) 12(9, 12) 4(1, 4) 2(21, 2) 
+
+Remaining memory space 1
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+1
+  enter id: 1
+  specify data type (units) you want: 1
+      buffer_mask: 1 1 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 
+      queue content: 1(0, 1) 3(6, 3) 12(9, 12) 4(1, 4) 2(21, 2) 1(5, 1) 
+
+Remaining memory space 0
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+2
+  enter an ID to remove 
+4
+      buffer_mask: 1 1 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 1 1 1 0 0 0 0 1 , 
+      queue content: 1(0, 1) 3(6, 3) 12(9, 12) 2(21, 2) 1(5, 1) 
+
+Remaining memory space 4
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+2
+  enter an ID to remove 
+3
+      buffer_mask: 1 1 1 1 1 1 1 , 1 1 1 1 1 1 1 0 , 0 0 1 0 0 0 0 1 , 
+      queue content: 1(0, 1) 12(9, 12) 2(21, 2) 1(5, 1) 
+
+Remaining memory space 7
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+1
+  enter id: 6
+  specify data type (units) you want: 6
+    Enqueue False!!! 
+    Cannot enter to the queue
+      buffer_mask: 1 1 1 1 1 1 1 , 1 1 1 1 1 1 1 0 , 0 0 1 0 0 0 0 1 , 
+      queue content: 1(0, 1) 12(9, 12) 2(21, 2) 1(5, 1) 
+
+Remaining memory space 7
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+2
+  enter an ID to remove 
+12
+      buffer_mask: 1 1 0 0 0 0 0 , 0 0 0 0 0 0 0 0 , 0 0 1 0 0 0 0 1 , 
+      queue content: 1(0, 1) 2(21, 2) 1(5, 1) 
+
+Remaining memory space 19
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+2
+  enter an ID to remove 
+1
+      buffer_mask: 1 1 0 0 0 0 0 , 0 0 0 0 0 0 0 0 , 0 0 1 0 0 0 0 0 , 
+      queue content: 2(21, 2) 1(5, 1) 
+
+Remaining memory space 20
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+2
+  enter an ID to remove 
+2
+      buffer_mask: 0 0 0 0 0 0 0 , 0 0 0 0 0 0 0 0 , 0 0 1 0 0 0 0 0 , 
+      queue content: 1(5, 1) 
+
+Remaining memory space 22
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+2
+  enter an ID to remove 
+1
+      buffer_mask: 0 0 0 0 0 0 0 , 0 0 0 0 0 0 0 0 , 0 0 0 0 0 0 0 0 , 
+      queue content: 
+
+Remaining memory space 23
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+1
+  enter id: 1
+  specify data type (units) you want: 1
+      buffer_mask: 0 0 0 0 0 0 0 , 0 0 0 0 0 0 0 0 , 0 0 0 0 0 0 0 1 , 
+      queue content: 1(0, 1) 
+
+Remaining memory space 22
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+1
+  enter id: 21
+  specify data type (units) you want: 21
+      buffer_mask: 0 1 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 
+      queue content: 1(0, 1) 21(1, 21) 
+
+Remaining memory space 1
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+2
+  enter an ID to remove 
+1
+      buffer_mask: 0 1 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 1 1 1 1 1 1 1 0 , 
+      queue content: 21(1, 21) 
+
+Remaining memory space 2
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
+1
+  enter id: 2
+  specify data type (units) you want: 2
+    Enqueue False!!! 
+    Cannot enter to the queue
+      buffer_mask: 0 1 1 1 1 1 1 , 1 1 1 1 1 1 1 1 , 1 1 1 1 1 1 1 0 , 
+      queue content: 21(1, 21) 
+
+Remaining memory space 2
+Which type you are going to operate? 
+1. Add an item
+2. remove an item with a specific Id
