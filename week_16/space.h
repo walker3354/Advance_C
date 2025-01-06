@@ -3,9 +3,12 @@
 
 #include "main.h"
 
-#define NUM_BYTE_BUF 8
-#define ELEMENT_SIZE 32
-#define FULL 255
+#define NUM_SMALL_BYTE_BUF 8
+#define NUM_LARGE_BYTE_BUF 8
+
+#define SMALL_ELEMENT_SIZE 32
+#define LARGE_ELEMENT_SIZE 64
+#define LARGE_START (SMALL_ELEMENT_SIZE * NUM_SMALL_BYTE_BUF)
 
 void print_buffer_status(void);
 
